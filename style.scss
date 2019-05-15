@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+}
+#der {
+    width: 290px;
+    height: 300px;
+    border: 1px solid #ccc;
+    float: right;
+}
+#titulo{
+    color: white;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 20px;
+}
+#subtitulo{
+    color: white;
+    grid-column: 1/5;
+    grid-row: 2/2;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 20px;
+}
+
+.caratula-img{
+    width: 250px;
+    height: 250px;
+    filter: grayscale(0%);
+    background-image: url('https://i.pinimg.com/originals/44/26/be/4426bedbd11289425446188827e96022.jpg');
+    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    transition: filter 0.3s ease-out;
+    transition: background-size 0.3s ease-out;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin: 0px auto;
+}
+.caratula-img1{
+    width: 250px;
+    height: 250px;
+    filter: grayscale(0%);
+    background-image: url('https://i.pinimg.com/originals/f3/7e/a9/f37ea9e5ed86b446d6cd51a667e4b7a8.jpg');
+    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    transition: filter 0.3s ease-out;
+    transition: background-size 0.3s ease-out;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    
+}
+.nombreCancion{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1px;
+}
+.nombreArtista{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.caratula-img2{
+    width: 250px;
+    height: 250px;
+    filter: grayscale(0%);
+    background-image: url('https://lastfm-img2.akamaized.net/i/u/ar0/186eadf887ff447ec4e511ef09f632cf.jpg');
+    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    transition: filter 0.3s ease-out;
+    transition: background-size 0.3s ease-out;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    
+}
+
+.caratula-img3{
+    width: 250px;
+    height: 250px;
+    filter: grayscale(0%);
+    background-image: url('https://pl.scdn.co/images/pl/default/d6ab9b50d47d441db99c30c09986c2a780c6611f');
+    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    transition: filter 0.3s ease-out;
+    transition: background-size 0.3s ease-out;
+    grid-column: 4/5;
+    grid-row: 4/5;
+    margin: 0px auto;
+
+}
+.caratula-img:hover{
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: 110%;
+    cursor: pointer;
+}
+.caratula-img1:hover{
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: 110%;
+    cursor: pointer;
+}
+.caratula-img2:hover{
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: 110%;
+    cursor: pointer;
+}
+.caratula-img3:hover{
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: 110%;
+    cursor: pointer;
+}
+.cd-text{
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    margin: 0px auto;
+    transition: opacity 0.3s ease-out;
+    position: relative;
+}
+.fab fa-youtube{
+    position: center;
+}
+.datosCantante{
+    position: absolute;
+    margin-left: 34px;
+}
+.cd-text:hover{
+    opacity: 1;
+}
+
+.parallax0 {
+    /* The image used */
+    background-image: url('/images/Mixing-consoles-headphones-colors-music-theme_3840x2160.jpg');
+  
+    /* Set a specific height */
+    min-height: 1072px;
+    min-width: 1518px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: black;
+  }

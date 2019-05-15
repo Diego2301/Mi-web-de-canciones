@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+}
+
+#der {
+  width: 290px;
+  height: 300px;
+  border: 1px solid #ccc;
+  float: right;
+}
+
+#titulo {
+  color: white;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 20px;
+}
+
+#subtitulo {
+  color: white;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 20px;
+}
+
+.caratula-img {
+  width: 250px;
+  height: 250px;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-image: url("https://i.pinimg.com/originals/44/26/be/4426bedbd11289425446188827e96022.jpg");
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: -webkit-filter 0.3s ease-out;
+  transition: -webkit-filter 0.3s ease-out;
+  transition: filter 0.3s ease-out;
+  transition: filter 0.3s ease-out, -webkit-filter 0.3s ease-out;
+  -webkit-transition: background-size 0.3s ease-out;
+  transition: background-size 0.3s ease-out;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  margin: 0px auto;
+}
+
+.caratula-img1 {
+  width: 250px;
+  height: 250px;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-image: url("https://i.pinimg.com/originals/f3/7e/a9/f37ea9e5ed86b446d6cd51a667e4b7a8.jpg");
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: -webkit-filter 0.3s ease-out;
+  transition: -webkit-filter 0.3s ease-out;
+  transition: filter 0.3s ease-out;
+  transition: filter 0.3s ease-out, -webkit-filter 0.3s ease-out;
+  -webkit-transition: background-size 0.3s ease-out;
+  transition: background-size 0.3s ease-out;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+  background-color: yellow;
+}
+
+.nombreCancion {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 1px;
+}
+
+.nombreArtista {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.caratula-img2 {
+  width: 250px;
+  height: 250px;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-image: url("https://lastfm-img2.akamaized.net/i/u/ar0/186eadf887ff447ec4e511ef09f632cf.jpg");
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: -webkit-filter 0.3s ease-out;
+  transition: -webkit-filter 0.3s ease-out;
+  transition: filter 0.3s ease-out;
+  transition: filter 0.3s ease-out, -webkit-filter 0.3s ease-out;
+  -webkit-transition: background-size 0.3s ease-out;
+  transition: background-size 0.3s ease-out;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+}
+
+.caratula-img3 {
+  width: 250px;
+  height: 250px;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-image: url("https://pl.scdn.co/images/pl/default/d6ab9b50d47d441db99c30c09986c2a780c6611f");
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: -webkit-filter 0.3s ease-out;
+  transition: -webkit-filter 0.3s ease-out;
+  transition: filter 0.3s ease-out;
+  transition: filter 0.3s ease-out, -webkit-filter 0.3s ease-out;
+  -webkit-transition: background-size 0.3s ease-out;
+  transition: background-size 0.3s ease-out;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  margin: 0px auto;
+}
+
+.caratula-img:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background-position: center;
+  background-size: 110%;
+  cursor: pointer;
+}
+
+.caratula-img1:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background-position: center;
+  background-size: 110%;
+  cursor: pointer;
+}
+
+.caratula-img2:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background-position: center;
+  background-size: 110%;
+  cursor: pointer;
+}
+
+.caratula-img3:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background-position: center;
+  background-size: 110%;
+  cursor: pointer;
+}
+
+.cd-text {
+  height: 100%;
+  color: white;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  margin: 0px auto;
+  -webkit-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+  position: relative;
+}
+
+.fab fa-youtube {
+  position: center;
+}
+
+.datosCantante {
+  position: absolute;
+  margin-left: 34px;
+}
+
+.cd-text:hover {
+  opacity: 1;
+}
+
+.parallax0 {
+  /* The image used */
+  background-image: url("/images/Mixing-consoles-headphones-colors-music-theme_3840x2160.jpg");
+  /* Set a specific height */
+  min-height: 1072px;
+  min-width: 1518px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
